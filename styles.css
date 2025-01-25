@@ -92,14 +92,30 @@ span{
 
 }
 .home-content h1 {
-    font-size: 62px;
+    font-size: 60px;
     line-height: 1.2;
 }
 .home-content p {
-    font-size: 18pxpx;
+    font-size: 28px;
     margin: 25px 0 30px;
-
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
     
+}
+.home-content i{
+    justify-content: center;
+    text-align: center;
+    color:white;
+    
+}
+.home-content .btn-2{
+    justify-content: center;
+    text-align:center
+}
+.home-content .btn-2:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 .btn-box{
     width: 345px;
