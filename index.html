@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Negasa Reta| Personal Portfolio</title>
+    <title>Personal Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/19eb38084a.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init({
+            publicKey: "yya-sqYCm_8QPDRa0",
+        });
+    })();
+    </script>
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -178,7 +188,7 @@
             <input type="text" placeholder="Subject" required>
         </div>
         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn-1">
+        <button type="button" class="btn-1" onclick="sendEmail()">Send Message</button>
     </form>
 
 
