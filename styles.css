@@ -242,6 +242,16 @@ span{
     color: white;
     width: 100%;
 }
+.col-con .btn-2{
+    height: 10vh;
+    color: black;
+    background-color: rgb(229, 126, 126);
+    text-align: center;
+
+}
+.col-con .btn-2:hover{
+    background-color: white;
+}
 .container .row .col {
     padding:6% 4%;
     
