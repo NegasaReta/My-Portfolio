@@ -43,13 +43,14 @@
         <h1>I'm <span>Negasa,<br></span> a Frontend Developer</h1>
 
         <p>
-            "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." <em style="font-style: italic; color:orangered">
+            "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." <br> <em style="font-style: italic; color:orangered ;text-align:right;">
                 Martin Fowler
             </em>
+
         </p>
+        <br>
+        <a href="#about" class ="btn-2"><i class="fa-solid fa-chevron-down"></i> </a>
         <div class="btn-box">
-            <button class = "btn-1"> Hire Me</button>
-            <button class="btn-2">Experience</button>
         </div>
     </div>
     <div class="img-box">
@@ -179,15 +180,15 @@
     </h2>
     <form action="#">
         <div class="input-box">
-            <input type="text" placeholder="Full Name" required>
+            <input type="text" id= "name" placeholder="Full Name" required>
             <input type="email" placeholder="Email" required>
         </div>
 
         <div class="input-box">
-            <input type="number" placeholder="Phone number" required>
-            <input type="text" placeholder="Subject" required>
+            <input id ="phone" type="number" placeholder="Phone number" required>
+            <input  id= "subject" type="text" placeholder="Subject" required>
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <textarea id="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         <button type="button" class="btn-1" onclick="sendEmail()">Send Message</button>
     </form>
 
